@@ -42,30 +42,3 @@ var vm = new Vue({
   
 })
 
-// var vm = new Vue({
-//     el: "#app2",
-//     data: {
-//         movies: [],
-//         buyArt: false
-//     },
-
-//     methods: {
-//     getMovies(){
-//         axios.get("https://api.artic.edu/api/v1/artworks")
-//           .then((response) => {
-//               this.movies = (response.data.data);
-              
-              
-//           })
-//       },
-
-//       buy(){
-//           this.buyArt = true
-//       }
-//     },
-
-//     mounted(){
-//         this.getMovies();
-        
-//     },
-// })
